@@ -1,0 +1,16 @@
+autoload -Uz colors && colors
+PS1="%F{green}%n%f %F{cyan}%f:%F{blue}%~%f"$" "
+
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+  source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
+  autoload -Uz compinit && compinit
+fi
+
+tgz() {
+  env COPYFILE_DISABLE=1 tar zcvf "$1" --exclude=".DS_Store" "${@:2}"
+}
+
+alias ls -a='ls -G -a -1'
+alias ls='ls -G -1'
+alias cache-clean='yarn cache clean && brew cleanup && brew cleanup -s && sudo rm -rf /Library/Logs/* && sudo rm -rf /Library/Caches/* && sudo rm -rf ~/Library/Logs/* && sudo rm -rf ~/Library/Caches/*'
