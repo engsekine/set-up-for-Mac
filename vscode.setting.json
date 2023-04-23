@@ -2,7 +2,6 @@
 	"files.defaultLanguage": "plaintext",
 	"breadcrumbs.enabled": true,
 	"yaml.schemaStore.enable": false,
-	"debug.inlineValues": true,
 	"debug.internalConsoleOptions": "openOnSessionStart",
 	"debug.openDebug": "openOnSessionStart",
 	"debug.toolBarLocation": "docked",
@@ -39,5 +38,6 @@
 	"csscomb.formatOnSave": true,
 	"csscomb.ignoreFilesOnSave": [],
 	"typescript.updateImportsOnFileMove.enabled": "always",
-	"python.defaultInterpreterPath": "python3"
+	"python.defaultInterpreterPath": "python3",
+	"debug.inlineValues": "on"
 }
