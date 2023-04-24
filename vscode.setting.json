@@ -17,6 +17,10 @@
 	"editor.guides.bracketPairs": true,
 	"editor.renderControlCharacters": true,
 	"editor.renderWhitespace": "all",
+	"prettier.trailingComma": "all",
+	"prettier.singleQuote": true,
+	"prettier.useTabs": true,
+	"prettier.semi": false,
 	"[markdown]": {
 		"editor.formatOnSave": false
 	},
@@ -30,9 +34,6 @@
 	"git.suggestSmartCommit": false,
 	"explorer.compactFolders": false,
 	"terminal.integrated.copyOnSelection": true,
-	"prettier.singleQuote": true,
-	"prettier.useTabs": true,
-	"prettier.semi": false,
 	"security.workspace.trust.untrustedFiles": "open",
 	"diffEditor.ignoreTrimWhitespace": false,
 	"html.format.contentUnformatted": "pre,code,textarea",
