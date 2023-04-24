@@ -12,7 +12,7 @@
 	"files.trimTrailingWhitespace": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnPaste": false,
-	"editor.formatOnSave": false,
+	"editor.formatOnSave": true,
 	"editor.formatOnType": false,
 	"editor.tabSize": 2,
 	"editor.linkedEditing": true,
