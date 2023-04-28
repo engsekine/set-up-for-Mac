@@ -3,9 +3,6 @@
 	"[php]": {
 		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
 	},
-	"[css]": {
-		"editor.defaultFormatter": "vscode.css-language-features"
-	},
 	"files.defaultLanguage": "plaintext",
 	"breadcrumbs.enabled": true,
 	"yaml.schemaStore.enable": false,
@@ -44,8 +41,12 @@
 	"diffEditor.ignoreTrimWhitespace": false,
 	"html.format.contentUnformatted": "pre,code,textarea",
 	"html.format.enable": true,
+    "csscomb.syntaxAssociations": {
+    "postcss": "scss"
+    },
 	"csscomb.formatOnSave": true,
 	"csscomb.ignoreFilesOnSave": [],
+	"csscomb.preset": "~/.vscode/csscomb.json",
 	"typescript.updateImportsOnFileMove.enabled": "always",
 	"python.defaultInterpreterPath": "python3",
 	"errorLens.excludeBySource": ["intelephense(1010)"]
