@@ -1,5 +1,11 @@
 {
 	"workbench.iconTheme": "vscode-icons",
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	},
+	"[css]": {
+		"editor.defaultFormatter": "vscode.css-language-features"
+	},
 	"files.defaultLanguage": "plaintext",
 	"breadcrumbs.enabled": true,
 	"yaml.schemaStore.enable": false,
@@ -12,9 +18,9 @@
 	"files.trimTrailingWhitespace": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.formatOnPaste": false,
-	"editor.formatOnSave": true,
+	"editor.formatOnSave": false,
 	"editor.formatOnType": false,
-	"editor.tabSize": 2,
+	"editor.tabSize": 4,
 	"editor.linkedEditing": true,
 	"editor.guides.bracketPairs": true,
 	"editor.renderControlCharacters": true,
@@ -41,5 +47,6 @@
 	"csscomb.formatOnSave": true,
 	"csscomb.ignoreFilesOnSave": [],
 	"typescript.updateImportsOnFileMove.enabled": "always",
-	"python.defaultInterpreterPath": "python3"
+	"python.defaultInterpreterPath": "python3",
+	"errorLens.excludeBySource": ["intelephense(1010)"]
 }
