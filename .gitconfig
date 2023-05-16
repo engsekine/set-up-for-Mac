@@ -1,0 +1,22 @@
+[user]
+	name = engsekine
+	email =
+[filter "lfs"]
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
+	clean = git-lfs clean -- %f
+[init]
+	defaultBranch = main
+[credential]
+	helper = osxkeychain
+[alias]
+	g = git
+	s = status
+	b = branch
+	c = checkout
+	a = add
+	dc = docker-compose
+	aa = add -A
+	cm = commit -m
+	cp = cherry-pick
