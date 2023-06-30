@@ -15,4 +15,4 @@ alias ls -a='ls -G -a -1'
 alias ls='ls -G -1'
 alias python="python3"
 alias pip="pip3"
-alias cache-clean='brew upgrade ; brew update & brew cleanup & brew cleanup -s & sudo mv /Library/Logs/* ~/.Trash & sudo mv /Library/Caches/* ~/.Trash & sudo mv ~/Library/Logs/* ~/.Trash && sudo mv ~/Library/Caches/* ~/.Trash'
+alias cache-clean='brew upgrade & brew update & brew cleanup & brew cleanup -s & sudo mv /Library/Logs/* ~/.Trash & sudo mv /Library/Caches/* ~/.Trash & sudo mv ~/Library/Logs/* ~/.Trash && sudo mv ~/Library/Caches/* ~/.Trash'
