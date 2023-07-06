@@ -22,6 +22,9 @@
     "editor.guides.bracketPairs": true,
     "editor.renderControlCharacters": true,
     "editor.renderWhitespace": "all",
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true
+    },
     "prettier.printWidth": 120,
     "prettier.tabWidth": 4,
     "prettier.singleQuote": true,
@@ -54,6 +57,7 @@
     "csscomb.preset": "~/.vscode/csscomb.json",
     "typescript.updateImportsOnFileMove.enabled": "always",
     "python.defaultInterpreterPath": "python3",
-    "errorLens.excludeBySource": ["intelephense(1010)"],
+    "errorLens.excludeBySource": ["intelephense(1010)", "ts(7026)"],
+    "redhat.telemetry.enabled": true,
     "window.zoomLevel": -1
 }
