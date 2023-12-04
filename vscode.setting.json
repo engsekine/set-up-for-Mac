@@ -46,7 +46,6 @@
     "explorer.compactFolders": false,
     "terminal.integrated.copyOnSelection": true,
     "security.workspace.trust.untrustedFiles": "open",
-    "diffEditor.ignoreTrimWhitespace": false,
     "html.format.contentUnformatted": "pre,code,textarea",
     "html.format.enable": true,
     "csscomb.syntaxAssociations": {
@@ -137,5 +136,7 @@
         "zlib",
         "wordpress"
     ],
-    "window.zoomLevel": -1
+    "stylelint.autoFixOnSave": false,
+    "window.zoomLevel": -1,
+    "explorer.sortOrder": "type"
 }
